@@ -1,0 +1,153 @@
+{
+    "Arabic":[
+      {"transLang":"ar", "voiceLang":"ar-eg"}
+
+    ],
+    "Bulagarian":[
+        {"transLang":"bg", "voiceLang":"bg-bg"}
+  
+      ],   
+       "Catalan":[
+        {"transLang":"ca", "voiceLang":"ca-es"}
+  
+      ],    
+      "Chinese(Simplified)":[
+        {"transLang":"zh", "voiceLang":"zh-cn"}
+  
+      ],    
+      "Chinese(Tranditional)":[
+        {"transLang":"zh-TW", "voiceLang":"zh-tw"}
+  
+      ],    
+      "Crotian":[
+        {"transLang":"hr", "voiceLang":"hr-hr"}
+  
+      ],    
+      "Czech":[
+        {"transLang":"cs", "voiceLang":"cs-cz"}
+  
+      ],    
+      "Danish":[
+        {"transLang":"da", "voiceLang":"da-dk"}
+  
+      ],    
+      "Dutch":[
+        {"transLang":"nl", "voiceLang":"nl-nl"}
+  
+      ],    
+      "English(India)":[
+        {"transLang":"en", "voiceLang":"en-in"}
+  
+      ],    
+      "English(US)":[
+        {"transLang":"en", "voiceLang":"en-us"}
+  
+      ],    
+      "Finnish":[
+        {"transLang":"fi", "voiceLang":"fi-fi"}
+  
+      ],    
+      "French":[
+        {"transLang":"fr", "voiceLang":"fr-fr"}
+  
+      ],    
+      "German":[
+        {"transLang":"de", "voiceLang":"de-de"}
+  
+      ],    
+      "Greek":[
+        {"transLang":"el", "voiceLang":"el-gr"}
+  
+      ],    
+      "Hebrew":[
+        {"transLang":"he", "voiceLang":"he-il"}
+  
+      ],    
+      "Hindi":[
+        {"transLang":"hi", "voiceLang":"hi-in"}
+  
+      ],    
+      "Hungarian":[
+        {"transLang":"hu", "voiceLang":"hu-hu"}
+  
+      ],    
+      "Indonesian":[
+        {"transLang":"id", "voiceLang":"id-id"}
+  
+      ],    
+      "Italian":[
+        {"transLang":"it", "voiceLang":"it-it"}
+  
+      ],    
+      "Japanese":[
+        {"transLang":"ja", "voiceLang":"ja-jp"}
+  
+      ],    
+      "Korean":[
+        {"transLang":"ko", "voiceLang":"ko-kr"}
+  
+      ],    
+      "Malay":[
+        {"transLang":"ms", "voiceLang":"ms-my"}
+  
+      ],    
+      "Norwegian":[
+        {"transLang":"no", "voiceLang":"nb-no"}
+  
+      ],    
+      "Polish":[
+        {"transLang":"pl", "voiceLang":"pl-pl"}
+  
+      ],    
+      "Portugese(Brazil)":[
+        {"transLang":"pt", "voiceLang":"pt-br"}
+  
+      ],    
+      "Portugese(Portugal)":[
+        {"transLang":"pt", "voiceLang":"pt-pt"}
+  
+      ],    
+      "Romanian":[
+        {"transLang":"ro", "voiceLang":"ro-ro"}
+  
+      ],    
+      "Russian":[
+        {"transLang":"ru", "voiceLang":"ru-ru"}
+  
+      ],      
+      "Slovak":[
+        {"transLang":"sk", "voiceLang":"sk-sk"}
+  
+      ],      
+      "Slovenian":[
+        {"transLang":"sl", "voiceLang":"sl-si"}
+  
+      ],      
+      "Spanish(Mexico)":[
+        {"transLang":"es", "voiceLang":"es-mx"}
+  
+      ],      
+      "Spanish(Spain)":[
+        {"transLang":"es", "voiceLang":"es-es"}
+  
+      ],      
+      "Swedish":[
+        {"transLang":"sv", "voiceLang":"sv-se"}
+  
+      ],      
+      "Tamil":[
+        {"transLang":"ta", "voiceLang":"ta-in"}
+  
+      ],      
+      "Thai":[
+        {"transLang":"th", "voiceLang":"th-th"}
+  
+      ],      
+      "Turkish":[
+        {"transLang":"tr", "voiceLang":"tr-tr"}
+  
+      ],      "Vietnmaese":[
+        {"transLang":"vi", "voiceLang":"vi-vn"}
+  
+      ]
+    }
