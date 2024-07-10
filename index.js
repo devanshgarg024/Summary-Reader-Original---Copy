@@ -44,9 +44,10 @@ function runPythonScript(inputData) {
 }
 
 let audioBuffer = null;
-
+let issumm=false;
+var translatedText;
 app.get("/", (req, res) => {
-  res.render("index.ejs", { voicefile: audioBuffer ? "/audio" : null });
+  res.render("index.ejs", { voicefile: audioBuffer ? "/audio" : null ,showsumm : issumm,summary: translatedText});
 });
 
 app.get("/audio", (req, res) => {
@@ -120,6 +121,7 @@ app.post("/redirect", async (req, res) => {
     console.log(req.body.langToBeSumm);
     const langToSummarize= data[req.body.langToBeSumm];
     if(!data.hasOwnProperty(req.body.langToBeSumm)){
+      
     res.redirect("/");
 
     }
@@ -142,11 +144,12 @@ app.post("/redirect", async (req, res) => {
     }
 
     const chunksToTranslateBack = splitTextIntoChunks(summarizedText, 800);
-    const translatedText = await translateChunks(chunksToTranslateBack, langToSummarize[0].transLang);
+    translatedText = await translateChunks(chunksToTranslateBack, langToSummarize[0].transLang);
     console.log(translatedText);
 
     audioBuffer = await fetchAndConcatAudioChunks(translatedText,langToSummarize[0].voiceLang);
     res.redirect("/");
+    issumm=true;
   } catch (error) {
     console.error('Error:', error);
     res.status(500).send("Internal Server Error");

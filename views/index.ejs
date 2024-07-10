@@ -4,8 +4,8 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<h1>Text To Speech Converter</h1>
-<form action="/redirect" method="POST" class="buttons">
+<h1>Translate-Summarize-Speak</h1>
+<form id='fetchForm'action="/redirect" method="POST" class="buttons">
     <div>
         <textarea name="texttobesumm" placeholder="Write anything here..." required></textarea>
     </div>
@@ -53,7 +53,7 @@
             <option value="Vietnamese">Vietnamese</option>
 
         </select>
-        <button id="startspeaking" type="submit">Listen</button>
+        <button id="startspeaking" type="submit">Generate</button>
     </div>
 </form>
 
@@ -61,6 +61,16 @@
     <source src="<%= voicefile %>" type="audio/mpeg">
     Your browser does not support the audio element.
 </audio>
-
+<p id ='fetching-text'></p>
+<% if (showsumm==true){ %>
+<div class="result-div">
+<p><%= summary %></p>
+</div>
+<% } %>
+<script>
+    document.getElementById('fetchForm').addEventListener('submit', function(event) {
+        document.getElementById('fetching-text').innerText = "Generating...";
+    });
+</script>
 </body>
 </html>
