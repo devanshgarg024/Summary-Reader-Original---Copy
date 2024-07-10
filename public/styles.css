@@ -82,7 +82,29 @@ audio {
     width: 100%;
     max-width: 500px;
     outline: none;
+    /* background: #2c3e50; Changed background color */
+    /* border: 1px solid #34495e; */
+    border-radius: 10px;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); */
 }
+
+audio::-webkit-media-controls-panel {
+    background-color: #2c3e50; /* Changed control panel color */
+    border-radius: 10px;
+}
+
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-volume-slider,
+audio::-webkit-media-controls-mute-button,
+audio::-webkit-media-controls-timeline {
+    color: #ecf0f1; /* Control colors */
+}
+
+audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display {
+    color: #ecf0f1; /* Time display colors */
+}
+
 
 /* Result styles */
 #fetching-text {
